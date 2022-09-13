@@ -88,7 +88,7 @@ function arenaTier(arr){
                         if (gladiator.skills[key] == abilityName){
                             skillExists = true;
                             if(gladiator.skills[key] < currstrength){
-                                gladiator,skills[key] = currstrength;
+                                gladiator.skills[key] = currstrength;
                             }
                             break;
                         }
